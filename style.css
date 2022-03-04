@@ -1,0 +1,67 @@
+body {
+    background-image: url(/img/stars.png);
+    background-color: black;
+    width: 1920px;
+    height:1080px;
+}
+
+
+.mainheader {
+    color: red;
+    font-family: 'Rowdies', cursive;
+    font-size: 96px;
+    line-height: 119.23px;
+    
+}
+
+
+.startlink {
+    font-family: 'Montserrat', sans-serif;
+    color: white;
+    font-size: 24px;
+    line-height: 29.26px;
+    text-decoration: none;
+}
+
+.redbutton {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 24px;
+    line-height: 29px;
+    Width: 395px;
+    Height: 79px;
+    color:white;
+    background: red;
+    margin-top:105px;
+   border-radius: 50px;
+   display:flex;
+   justify-content: center;
+   align-items: center;
+
+}
+
+
+
+.submittlink {
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 24px;
+    line-height: 29px;
+    margin-top:41px;
+}
+
+.rocketman {
+    width: 409.92px;
+    height: 372.45px;
+}
+
+
+
+.landingpage {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+/* This is end for first page */
+
