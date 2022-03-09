@@ -1,10 +1,11 @@
 #body {
     background-image: url(/img/stars.png);
     background-color: black;
-  
+
 }
-body{
-    margin:0;
+
+body {
+    margin: 0;
 }
 
 
@@ -68,14 +69,12 @@ body{
 /* This is end for first page */
 
 
-.body2 {
+/* .body2 {
 
      /* height: 1080px;
     width: 1920px;  */
-    /* background: linear-gradient(to right, white 50%, black 50%); */
-}
-
-.main-conainer {
+/* background: linear-gradient(to right, white 50%, black 50%); */
+*/ .main-conainer {
     display: flex;
     justify-content: space-between;
     height: 100vh;
@@ -94,11 +93,12 @@ body{
 }
 
 
-.flex-box:nth-child(2){ 
-    background-color:black;
+.flex-box:nth-child(2) {
+    background-color: black;
 }
-.flex-box  {
-    width: 50%; 
+
+.flex-box {
+    width: 50%;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -119,7 +119,7 @@ body{
     display: flex;
     justify-content: center;
     font-family: 'Montserrat', sans-serif;
-    vertical-align: center; 
+    vertical-align: center;
 }
 
 .second-pages-input {
@@ -145,4 +145,118 @@ body{
     flex-direction: column;
 
     align-items: center;
+}
+
+
+
+/* end for second page */
+
+
+
+
+
+#main-cont-third {
+    display: flex;
+    /* justify-content: space-between; */
+    align-items: baseline;
+
+
+}
+
+
+#left-side {
+    background-color: white;
+    width: 50%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+
+
+
+}
+
+#right-side {
+    background-color: black;
+    color: white;
+    width: 50%;
+    height: 100vh;
+
+}
+
+#header-third {
+    font-family: 'Rowdies', cursive;
+    color: red;
+    Font-size: 64px;
+    line-height: 79px;
+    line-height: 100%;
+    padding-bottom: 119px;
+
+
+
+}
+
+#button-third-page {
+    background-color: red;
+    font-family: 'Montserrat', sans-serif;
+    Font-size: 12px;
+    Line-height: 100%;
+    Width: 201px;
+    Height: 32px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    align-self: flex-end;
+
+}
+
+#heart-cont-third {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    Width: 455px;
+    Height: 193px;
+
+
+}
+
+#inpur-third-exp {
+    width: 455px;
+    height: 54px;
+}
+
+
+#skill-dropdown {
+    width: 463px;
+    height: 54px;
+}
+
+
+#right-side {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+#paragraph-third-page {
+    font-family: 'Montserrat', sans-serif;
+    Font-size: 24px;
+    line-height: 48px;
+    line-height: 200%;
+    height: 606px;
+    width: 705px;
+
+
+}
+
+#header-third-right {
+    font-family: 'Rowdies', cursive;
+    color: red;
+    Font-size: 64px;
+    line-height: 79px;
+    line-height: 100%;
+    padding-bottom: 80px;
+
 }
